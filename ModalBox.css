@@ -1,0 +1,302 @@
+#body-image {
+    background-image: url(spacetech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1-wrapper {
+    text-align: center;
+}
+h1 {
+    color: #00baff;
+    font-family: 'Righteous', cursive;
+    text-decoration: underline;
+    display: inline;
+}
+
+/*-----BUTTONS START-----*/
+.bootons {
+    margin-top: 5%;
+}
+
+.summon-button {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px double #00baff;
+    background-image: url(spacetech.jpg);
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.left-button {
+    position: absolute;
+    float: left;
+    margin-left: 2%;
+    margin-top: -8%;
+    display: inline;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+.center-button {
+    position: absolute;
+    margin-left: -9%;
+    margin-top: 18%;
+    display: inline;
+}
+
+.right-wrapper {
+    text-align: right;
+    margin-right: 22%;
+}
+.right-button {
+    position: absolute;
+    float: right;
+    margin-right: 2%;
+    margin-top: -8%;
+    display: inline;
+}
+
+.poly-button {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 25%;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    border: 10px outset rgb(227, 195, 108);
+    background-image: url(poly.jpg);
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: #ffcf4d;
+    display: none;
+}
+/*-----BUTTONS END-----*/
+
+
+/*-----DRAGONS START-----*/
+.blue-eyes1 {
+    margin-top: 2%;
+    width: 170px;
+    margin-left: 25%;
+    border: 7px outset rgb(129, 139, 141);
+    display: none;
+}
+
+.be2wrapper {
+    text-align: center;
+    margin-right: 14%;
+}
+.blue-eyes2 {
+    margin-top: 2%;
+    width: 170px;
+    border: 7px outset rgb(129, 139, 141);
+    display: none;
+}
+
+
+.be3wrapper{
+    text-align: right;
+    margin-right: 39%;
+}
+.blue-eyes3 {
+    margin-top: 2%;
+    width: 170px;
+    text-align: right;
+    border: 7px outset rgb(129, 139, 141);
+    display: none;
+}
+
+.ultimate-wrapper {
+    margin-top: -9%;
+    margin-left: 15%;
+}
+.ultimate-dragon {
+    height: 97%;
+    border: 10px solid #d97f16;
+    border-radius: 40%;
+    display: none;
+    border-style: double;
+}
+/*-----DRAGONS END-----*/
+
+
+/*-----EXODIA START-----*/
+/*exodiabuttonsstart*/
+.monster-change-wrapper {
+    text-align: right;    
+    margin-right: 22%;
+}
+.monster-change {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: -21.5%;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    border: 10px outset rgb(208, 17, 17);
+    background-image: url(Exodiasketch.jpg);
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgb(38, 38, 38);
+    color: rgb(255, 0, 0);
+    display: none;
+}
+
+.summon-button-exodia {
+    width: 125px;
+    height: 125px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 7px groove rgba(92, 89, 28, 0.42);
+    background-image: url(sandback.jpg!d);
+    font-family: 'Averia Libre', cursive;
+    font-size: 22px;
+    color: #332c04;
+}
+
+.head-wrapper {
+    text-align: center;
+    margin-right: 10%;
+}
+.head-button{
+    position: absolute;
+    margin-top: 41%;
+    display: none;
+}
+
+.right-arm-wrapper {
+    text-align: left;
+    margin-left: 30%;
+}
+.right-arm-button {
+    position: absolute;
+    margin-top: 41%;
+    display: none;
+}
+
+.right-leg-wrapper {
+    text-align: left;
+    margin-left: 15%;
+}
+.right-leg-button {
+    position: absolute;
+    margin-top: 41%;
+    display: none;
+}
+
+.left-arm-wrapper {
+    text-align: right;
+    margin-right: 40%;
+}
+.left-arm-button {
+    position: absolute;
+    margin-top: 41%;
+    display: none;
+}
+
+.left-leg-wrapper {
+    text-align: right;
+    margin-right: 25%;
+}
+.left-leg-button {
+    position: absolute;
+    margin-top: 41%;
+    display: none;
+}
+
+.obliterate-button {
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 39%;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    border: 10px outset rgb(203, 155, 26);
+    background-image: url(sandback.jpg!d);
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: rgb(106, 81, 14);
+    display: none;
+}
+/*exodiabuttonsend*/
+
+/*exodiapiecesstart*/
+.head-align {
+    text-align: center;
+    margin-right: 13%;
+}
+.head {
+    width: 150px;
+    margin-top: 5%;
+    display: none;
+}
+
+.right-arm-align {
+    margin-left: 30%;
+}
+.right-arm {
+    width: 150px;
+    margin-top: 5%;
+    display: none;
+}
+
+.right-leg-align {
+    text-align: center;
+    margin-right: 28%;
+}
+.right-leg {
+    width: 150px;
+    margin-top: 23%;
+    display: none;
+}
+
+.left-arm-align {
+    text-align: center;
+    margin-left: 13.8%;
+}
+.left-arm {
+    width: 150px;
+    margin-top: 5%;
+    display: none;
+}
+
+.left-leg-align {
+    text-align: center;
+    margin-left: 0%;
+}
+.left-leg {
+    width: 150px;
+    margin-top: 23%;
+    display: none;
+}
+
+.full-exodia-wrapper {
+    text-align: center;
+    margin-right: 70%;
+}
+.full-exodia {
+    width: 62%;
+    margin-top: 4%;
+    border: 10px solid #9f802d;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-style: double;
+    display: none;
+    
+}
+/*exodiapiecesend*/
+/*-----EXODIA END-----*/
+
+img{
+    position: absolute;
+}
